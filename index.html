@@ -9,15 +9,15 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
-    
+    <script type="module" src="script.js"></script>
   </head>
   <body>
     <div id="quote-container">
       <img id="bookCover", src></img>
       <p id="quote"></p>
       <p id="author"></p>
-      <button id="newQuote", onclick="setQuote()">New quote</button>
-      <script src="script.js"></script>
+      <button id="newQuote">New quote</button> <!-- removed attribute onclick="setQuote()" -->
+      <!-- put script link in src to act as module <script src="script.js"></script> -->
     </div>
   </body>
 </html>
